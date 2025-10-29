@@ -1,0 +1,31 @@
+docker run -d \
+  --name mysql-server \
+  -e MYSQL_ROOT_PASSWORD=root \
+  -e MYSQL_DATABASE=capstone \
+  -p 3306:3306 \
+  mysql:8.0
+
+docker cp ~/lms/db/capstone.sql mysql-server:/capstone.sql
+
+docker exec -it mysql-server bash
+mysql -u root -p capstone < /capstone.sql
+# (password: root)
+
+
+mysql -u root -p
+USE capstone;
+SHOW TABLES;
+
+docker run -d \
+  --name apache-php \
+  -p 80:80 \
+  --link mysql-server:db \
+  -v ~/lms:/var/www/html \
+  php:8.2-apache
+
+docker exec -it apache-php bash
+apt update
+docker-php-ext-install mysqli pdo pdo_mysql
+apachectl restart
+exit
+
