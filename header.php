@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-        <title>CHMSC LMS</title>
+        <title>Seer Bharat LMS</title>
 		<meta name="description" content="Learning Management System">
 		<meta name="keywords" content="CHMSC LMS,CHMSCLMS,CHMSC,LMS,CHMSCLMS.COMXA">
 		<meta name="author" content="JOHN KEVIN LORAYNA">
@@ -27,4 +27,5 @@
 		<script src="admin/vendors/jquery-1.9.1.min.js"></script>
         <script src="admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
+
 <?php include('admin/dbcon.php'); ?>
