@@ -5,7 +5,7 @@ include('admin/dbcon.php');
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-    <title>CHMSC LMS</title>
+    <title>Seer Bharat LMS</title>
     <meta charset="UTF-8">
     <meta name="description" content="Learning Management System">
     <meta name="keywords" content="CHMSC LMS,CHMSCLMS,CHMSC,LMS,CHMSCLMS.COMXA">
@@ -42,4 +42,5 @@ include('admin/dbcon.php');
     <script src="admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <script src="admin/vendors/jGrowl/jquery.jgrowl.js"></script>
 </head>
+
 
