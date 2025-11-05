@@ -41,7 +41,7 @@
 						});
 						</script>
 			<div id="button_form" class="form-signin" >
-			New to CHMSC OLMS
+			New to SB LMS
 			<hr>
 				<h3 class="form-signin-heading"><i class="icon-edit"></i> Sign up</h3>
 				<button data-placement="top" title="Sign In as Student" id="signin_student" onclick="window.location='signup_student.php'" id="btn_student" name="login" class="btn btn-info" type="submit">I`m a Student</button>
@@ -58,4 +58,5 @@
 														$(document).ready(function(){
 															$('#signin_teacher').tooltip('show'); $('#signin_teacher').tooltip('hide');
 														});
+
 														</script>	
