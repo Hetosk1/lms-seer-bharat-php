@@ -8,9 +8,9 @@
 							</div>
 							<div class="row-fluid">
 
-						<div class="span4">
+						<!-- <div class="span4">
 						<img class="index_logo" src="admin/images/Logo.png">
-						</div>	
+						</div>	 -->
 						<div class="span8">
 						
 								<div class="title">
@@ -37,3 +37,4 @@
 						</div>		
 
 				</div>
+
